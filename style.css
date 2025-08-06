@@ -63,6 +63,7 @@ img {
 
 .title {
     color: var(--Green-700);
+    font-size: 2rem;
 }
 
 .title, .price p:first-of-type {
