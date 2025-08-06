@@ -61,6 +61,9 @@ img {
 }
 
 
+.title {
+    color: var(--Green-700);
+}
 
 .title, .price p:first-of-type {
     font-family: 'Fraunces', serif;
@@ -87,7 +90,7 @@ img {
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
-    background-color: var(--Green-700);
+    background-color: var(--Green-500);
     width: calc(100% - 2rem);
     height: calc( 1.5rem + 1vh);
     margin: 0 auto;
@@ -120,7 +123,7 @@ img {
         display: grid;
         grid-template-columns: 1fr 1fr; 
         width: calc(100% - 15rem);
-        margin: calc(8rem + 5vh) auto;
+        margin: calc(6rem + 5vh) auto;
         border-radius: 0.5em;
         padding: 0;
     }
