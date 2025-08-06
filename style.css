@@ -118,7 +118,7 @@ img {
 
     .product-container {
         display: grid;
-        grid-template-columns: 1fr 1fr;    
+        grid-template-columns: 1fr 1fr; 
         width: calc(100% - 15rem);
         margin: calc(8rem + 5vh) auto;
         border-radius: 0.5em;
@@ -128,12 +128,8 @@ img {
     img {
         height: 100%;
         border-radius: 0.5em 0 0 0.5em;
+        width: calc(100%-50rem);
     }
 
-
-    .product-details {
-        padding: calc(1.5rem + 2%);
-        height: 100%;
-    }
 
 }
